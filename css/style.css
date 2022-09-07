@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+
+/* Geral*/
+
+html {
+    font-family: 'Noto Serif Georgian', serif;
+    color: #373A3C;
+}
+
+h1,
+h2 {
+    font-family: 'Dancing Script', cursive, Serif;
+}
+
+a {
+    transition: .5s;
+}
+
+/* Sidebar */
+
+#sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #006599;
+    padding-top: 40px;
+}
+
+#sidebar h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#sidebar a:hover {
+    color: #f6f4ab;
+    border-bottom: 1px solid rgb(246, 118, 207);
+}
+
+#sidebar li {
+    padding: 20px;
+}
+
+.sidebar-container {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+}
+
+.logo-doceria {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
